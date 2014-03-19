@@ -6,6 +6,8 @@
     <string name="title_activity_wait_scan">WaitScanActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="facture">Facture </string>
+    
     <string name="textAcceuil">Sacanner votre carte ...</string>
 
 </resources>

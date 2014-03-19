@@ -9,6 +9,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.TextView;
 
 
 
@@ -16,9 +17,19 @@ public class MainActivity extends TabActivity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.main);
 
 		Resources ressources = getResources(); 
+
+		
+		
+		 TextView t = new TextView(this); 
+
+		    t=(TextView)findViewById(R.id.textview0); 
+		    
+		    t.setText("Step One: blast egg");
+
 		TabHost tabHost = getTabHost(); 
 		
 		// Android tab
